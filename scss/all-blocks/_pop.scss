@@ -1,0 +1,65 @@
+.pop__info {
+    position: absolute;
+    width: 900px;
+    height: 292px;
+    flex-shrink: 0; 
+    background-image: url("../../img/pop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-top: 150px;
+
+    .pop__list {
+        display: flex;
+    }
+
+    .pop__heading {
+        width: 268px;
+        height: 98px;
+        flex-shrink: 0; 
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .pop_item {
+        list-style: none;
+        padding-top: 10px;
+    }
+
+    .pop_itemm {
+        list-style: none;
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+
+    .pop__text {
+        width: 459px; 
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: -40px;
+    }
+
+    .pop__button {
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none; 
+        border-radius: 8px;
+        background: #FFAD9B; 
+        padding: 20px 30px;
+    }
+}

@@ -1,0 +1,41 @@
+.about__info {
+    margin-top: 160px;
+
+    .about__item {
+        list-style: none;
+    }
+
+    .about__itemm {
+        list-style: none;
+        padding-left: 70px;
+    }
+
+    .about__itm {
+        list-style: none;
+        padding-left: 50px;
+    }
+
+    .about__heading {
+    color: #333136;
+    font-family: "Jost";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px; 
+    }
+
+    .about__text {
+        color: #333136;
+        font-family: "Jost";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .about__list {
+        display: flex;
+        
+    }
+}

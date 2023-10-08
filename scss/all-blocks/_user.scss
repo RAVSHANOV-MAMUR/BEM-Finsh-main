@@ -1,0 +1,50 @@
+.user {
+    .container {
+        margin-top: 165px;
+        display: flex;
+    }
+
+    &__info {
+        width: 541px;
+        height: 640px;
+        flex-shrink: 0; 
+        background-image: url("../img/compyuter.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+    }
+
+    &__heading {
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 2px; 
+        text-align: center;
+        padding-top: 273px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center; 
+    }
+
+    &__img {
+        margin-left: 30px;
+    }
+
+    &__imag {
+        margin-left: 30px;
+        margin-top: 37px;
+    }
+
+}
